@@ -338,6 +338,10 @@ pub enum CursorIcon {
     NSResize,
     NESWResize,
     NWSEResize,
+    NorthWestResize,
+    NorthEastResize,
+    SouthEastResize,
+    SouthWestResize,
 }
 
 /// Start miniquad.

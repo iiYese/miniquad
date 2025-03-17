@@ -123,5 +123,9 @@ pub fn translate_cursor(icon: crate::CursorIcon) -> core::ffi::c_uint {
         crate::CursorIcon::NSResize => 27,
         crate::CursorIcon::NESWResize => 28,
         crate::CursorIcon::NWSEResize => 29,
+        crate::CursorIcon::NorthWestResize => 21,
+        crate::CursorIcon::NorthEastResize => 20,
+        crate::CursorIcon::SouthEastResize => 23,
+        crate::CursorIcon::SouthWestResize => 24,
     }
 }

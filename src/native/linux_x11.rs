@@ -392,6 +392,10 @@ impl X11Display {
                         CursorIcon::NSResize => libx11::XC_sb_v_double_arrow,
                         CursorIcon::NESWResize => libx11::XC_top_right_corner,
                         CursorIcon::NWSEResize => libx11::XC_top_left_corner,
+                        CursorIcon::NorthWestResize => libx11::XC_top_left_corner,
+                        CursorIcon::NorthEastResize => libx11::XC_top_right_corner,
+                        CursorIcon::SouthEastResize => libx11::XC_bottom_right_corner,
+                        CursorIcon::SouthWestResize => libx11::XC_bottom_left_corner,
                     },
                 )
             }),

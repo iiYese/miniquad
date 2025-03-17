@@ -824,6 +824,8 @@ pub const XC_sb_h_double_arrow: libc::c_ushort = 108;
 pub const XC_sb_v_double_arrow: libc::c_ushort = 116;
 pub const XC_top_left_corner: libc::c_ushort = 134;
 pub const XC_top_right_corner: libc::c_ushort = 136;
+pub const XC_bottom_right_corner: libc::c_ushort = 14;
+pub const XC_bottom_left_corner: libc::c_ushort = 12;
 pub const XC_watch: libc::c_ushort = 150;
 pub const XC_xterm: libc::c_ushort = 152;
 
